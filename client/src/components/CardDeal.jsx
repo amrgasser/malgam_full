@@ -5,7 +5,8 @@ import { card } from "../assets";
 import { expectations } from "../constants/expectations";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import { Grid, Tooltip, Typography, tooltipClasses } from "@mui/material";
+import Tooltip from "@mui/material/Tooltip";
+
 
 // const HtmlTooltip = styled(({ className, ...props }) => (
 //   <Tooltip {...props} classes={{ popper: className }} />
