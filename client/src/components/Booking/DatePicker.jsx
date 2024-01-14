@@ -1,7 +1,7 @@
 import React from 'react'
 
-import MobileDatePicker from '@mui/x-date-pickers/MobileDatePicker';
-import DesktopDatePicker from '@mui/x-date-pickers/DesktopDatePicker';
+import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker';
+import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
 
 const DatePicker = ({ label, setState, handleEdit, state, handleChange, myStep }) => {

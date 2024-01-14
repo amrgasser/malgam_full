@@ -5,6 +5,8 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Listing from './Listing'
 import CheckIcon from '@mui/icons-material/Check';
+import { Grid } from '@mui/material'
+import { CorporateFare } from '@mui/icons-material'
 import CorporateForm from './CorporateForm'
 
 const Page = () => {

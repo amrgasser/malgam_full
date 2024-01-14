@@ -2,7 +2,7 @@
 const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
-  purge: ["./index.html", "./src/**/*.{js,jsx}", "./node_modules/tailwind-datepicker-react/dist/**/*.js", "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"
+  content: ["./index.html", "./src/**/*.{js,jsx}", "./node_modules/tailwind-datepicker-react/dist/**/*.js", "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"
   ],
   mode: "jit",
   theme: {
