@@ -4,6 +4,7 @@ import CarEngine from '../../assets/card_images/car-engine.png'
 import CarSeat from '../../assets/card_images/car-seat.png'
 import Transmission from '../../assets/card_images/manual-transmission.png'
 import Gas from '../../assets/card_images/gas-station.png'
+import ClickSVG from '../../assets/click.svg'
 
 const CarCard = ({ car }) => {
 
@@ -29,6 +30,12 @@ const CarCard = ({ car }) => {
                         <img className='h-4 w-4 mr-2' src={Gas} alt="" />
                         <p>30 MPG</p>
                     </div>
+                </div>
+                <div className="flex w-full">
+                    <button className="flex flex-row justify-center align-center m-auto bg-[#EE892F]  py-2 px-12 rounded-[10px] opacity-[0.8]">
+                        {/* <img src={ClickSVG} alt="" className="h-[1.5rem] mr-2" /> */}
+                        <p className='text-[12px] m-auto'> Check Availability</p>
+                    </button>
                 </div>
             </div>
         </div>

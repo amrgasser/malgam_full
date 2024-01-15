@@ -1,41 +1,41 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
+  {
+    id: "",
+    title: "Homepage",
+  },
+  {
+    id: "about",
+    title: "About Us",
+  },
   // {
-  //   id: "About",
-  //   title: "About Us",
+  //   id: "corporate",
+  //   title: "Corporate Services",
   // },
   {
-    id: "vehicles",
-    title: "Our Vehicles",
+    id: "cars",
+    title: "MCVR Rental Cars",
   },
   {
-    id: "corporate",
-    title: "Corporate Services",
-  },
-  {
-    id: "locations",
-    title: "Our locations",
-  },
-  {
-    id: "areas",
-    title: "Areas We Cover",
-  },
-  {
-    id: "Contact",
-    title: "Contact",
-  },
-  {
-    id: "Reviews",
-    title: "Reviews",
-  },
-  {
-    id: "Offers",
-    title: "Offers",
+    id: "vans",
+    title: "MCVR Rental Vans",
   },
   {
     id: "faqs",
-    title: "FAQ's"
+    title: "FAQs",
+  },
+  {
+    id: "contact",
+    title: "Contact Us",
+  },
+  {
+    id: "privacy",
+    title: "Privacy",
+  },
+  {
+    id: "terms-and-conditions",
+    title: "Terms & Conditions"
   },
   // {
   //   id: "vehicle-sales",

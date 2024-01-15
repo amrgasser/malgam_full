@@ -9,16 +9,16 @@ export default function FaqPage() {
     const [cards] = useState(questions);
 
     return (
-        <div className="bg-gradient-custom w-full overflow-hidden">
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Navbar />
+        <div className=" bg-offwhite-gradient w-full overflow-hidden">
+            <div className={`${styles.paddingX} bg-offwhite ${styles.flexCenter}`}>
+                <div className={`w-full px-10 z-[100]`}>
+                    <Navbar isLogo={true} />
                 </div>
             </div>
-            <section className="max-w-xl mx-auto py-10 px-4">
-                <h1 className="text-center uppercase tracking-widest font-bold mb-8">
-                    Challenge Faqs
-                </h1>
+            <section className="mx-auto py-6 px-[8rem]">
+                <div className=" mt-[3rem] mb-[4rem]">
+                    <h1 className={`font-corbel font-semibold text-[70px] w-full text-center text-[#FCE9D8]`}> FAQs</h1>
+                </div>
 
                 <section className="grid grid-cols-1 gap-3">
                     {cards.map((card, index) => (

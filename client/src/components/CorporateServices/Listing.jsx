@@ -1,11 +1,7 @@
-
-import Typography from "@mui/material/Typography";
-import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-
+import { List, Grid, Typography, ListItem, ListItemIcon, ListItemText } from '@mui/material'
 import React from 'react'
-import Check from '@mui/icons-material/Check'
+import styled from 'styled-components';
+import { Check } from '@mui/icons-material'
 
 const Listing = ({ title, listings, icon }) => {
     const [dense, setDense] = React.useState(false);

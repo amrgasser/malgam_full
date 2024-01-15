@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"); */
+@font-face {
+  font-family: "Corbel";
+  src: url("https://db.onlinewebfonts.com/t/51ee907427c788c3ab4442e73286d641.eot");
+  src: url("https://db.onlinewebfonts.com/t/51ee907427c788c3ab4442e73286d641.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/51ee907427c788c3ab4442e73286d641.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/51ee907427c788c3ab4442e73286d641.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/51ee907427c788c3ab4442e73286d641.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/51ee907427c788c3ab4442e73286d641.svg#Corbel V2")format("svg");
+}
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +16,25 @@
 :root {
   --black-gradient: linear-gradient(to right, #616A70 0%, #909194 100%);
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.hero-background-image{
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),
+    url('./assets/background-hero3.jpeg');
+  background-size: cover;
+  
+}
+
+.bg-offwhite{
+  background-color: #FCE9D8;
+}
+.bg-offwhite-gradient{
+  content: " ";
+  background: linear-gradient(rgba(238, 137, 47, 1) 0%, rgba(252, 233, 216, 1) 30%);
+}
+
+.border-separators{
+  border-right: 1px solid;
 }
 .booking-item-border {
   border-right: 1px solid #ddd !important;
@@ -22,7 +50,9 @@
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg) scale(5);
 }
-
+.sidebar-bg{
+  background: #FB7712;
+}
 * {
   scroll-behavior: smooth;
 }

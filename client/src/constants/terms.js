@@ -3,7 +3,7 @@ export const terms = [
         title: "Terms & Conditions for MCVR",
     },
     {
-        title: "Last Updated: []",
+        title: "Last Updated: 14th January 2024",
     },
     {
         title: "Definitions",
@@ -54,7 +54,7 @@ export const terms = [
 ]
 export const privacy = {
     title: "Privacy Policy for MCVR Ltd. T/a Malgam Car and Van Rental",
-    lastUpdated: "Last Updated: 03/12/2023",
+    lastUpdated: "Last Updated: 14th January 2024",
     subheading: "At MCVR, we are committed to protecting the privacy of our customers. This Privacy Policy outlines how we collect, use, disclose, and manage your personal information when you interact with our website, services, and rental offerings. By using MCVR services, you agree to the terms outlined in this policy.",
     terms: [
         {
