@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ab3c82b.css",
-    "main.js": "/static/js/main.d16be16a.js",
+    "main.css": "/static/css/main.c6a85756.css",
+    "main.js": "/static/js/main.0c7168fb.js",
     "static/media/logo.png": "/static/media/logo.07660ed2eae7ed3f4e1a.png",
     "static/media/robot.png": "/static/media/robot.b3924d6a4b8b19ef9de9.png",
     "static/media/bill.png": "/static/media/bill.042c4c8c3a77ddd977e0.png",
@@ -11,7 +11,6 @@
     "static/media/new_car.png": "/static/media/new_car.3175c0262df85e0521e0.png",
     "static/media/car-engine.png": "/static/media/car-engine.c00d412cedf06a1eb2c6.png",
     "static/media/people01.png": "/static/media/people01.a40f2b61208976a6d644.png",
-    "static/media/office.avif": "/static/media/office.ed4e5bc022fed5552481.avif",
     "static/media/google.svg": "/static/media/google.b596752253d8523d78d4a2691564e4b4.svg",
     "static/media/apple.svg": "/static/media/apple.e3713dc89ad84e690ab38eae55922d3e.svg",
     "static/media/payload.jpeg": "/static/media/payload.a4e41e9c213f127931d7.jpeg",
@@ -20,7 +19,6 @@
     "static/media/manual-transmission.png": "/static/media/manual-transmission.74e85b0cd1ccf8a8061a.png",
     "static/media/instagram.svg": "/static/media/instagram.c6b8cb38e27fa08147a5848badee6975.svg",
     "static/media/Discount.svg": "/static/media/Discount.638a1f441638e7b76e7cd0a4262d3f49.svg",
-    "static/media/click.svg": "/static/media/click.26fa19ef19c6815cec8dd7273e9d0642.svg",
     "static/media/close.svg": "/static/media/close.c77f10e4c08d40af5f1ccf25a43b2ac5.svg",
     "static/media/Star.svg": "/static/media/Star.5baf88ad0a72df4561e5b994f84ab6fe.svg",
     "static/media/menu.svg": "/static/media/menu.0b8796dcff6b9d88f160a5096039aa18.svg",
@@ -32,11 +30,11 @@
     "static/media/quotes.svg": "/static/media/quotes.434c184457ebf3e0a409048091321839.svg",
     "static/media/facebook.svg": "/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "index.html": "/index.html",
-    "main.3ab3c82b.css.map": "/static/css/main.3ab3c82b.css.map",
-    "main.d16be16a.js.map": "/static/js/main.d16be16a.js.map"
+    "main.c6a85756.css.map": "/static/css/main.c6a85756.css.map",
+    "main.0c7168fb.js.map": "/static/js/main.0c7168fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab3c82b.css",
-    "static/js/main.d16be16a.js"
+    "static/css/main.c6a85756.css",
+    "static/js/main.0c7168fb.js"
   ]
 }
