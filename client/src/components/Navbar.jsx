@@ -33,7 +33,7 @@ const Navbar = ({ isLogo = false, cur = "" }) => {
 
         <div
           className={`${!toggle ? "hidden" : "flex"
-            } p-6 bg-white absolute top-[0] left-0 w-[100%] lg:w-[20%] h-full min-w-[140px] sidebar`}
+            } p-6 bg-white absolute top-[0] left-0 w-[100%] lg:w-[20%] h-full min-w-[140px] sidebar z-[100]  `}
         >
           <div className="absolute top-[2rem] left-[3rem] lg:left-[10rem]">
             <ToggleButton toggle={toggle} setToggle={setToggle} />
