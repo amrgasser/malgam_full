@@ -1,9 +1,9 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
-import PickupInfo2 from "./components/Booking/PickupInfo2";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import FaqPage from "./components/FAQs/FaqPage";
-import HomeImages from "./components/Home/HomeImages";
+// import PickupInfo2 from "./components/Booking/PickupInfo2";
+// import { RouterProvider, createBrowserRouter } from "react-router-dom";
+// import FaqPage from "./components/FAQs/FaqPage";
+// import HomeImages from "./components/Home/HomeImages";
 import { close, logo, menu } from "./assets";
 
 

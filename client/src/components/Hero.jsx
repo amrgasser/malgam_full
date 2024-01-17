@@ -1,9 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
-import backgroundImg from '../assets/background-hero3.jpeg'
-import Button from '@mui/material/Button'
-import ClickSVG from '../assets/click.svg'
+
 const Hero = ({ text, textSize, isHeader }) => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>

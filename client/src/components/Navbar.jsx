@@ -12,7 +12,7 @@ const ToggleButton = ({ toggle, setToggle }) => {
         alt="menu"
         className="mt-auto w-[28px] h-[28px] object-contain invert-[75]"
       />
-      {!toggle && <p className="ml-3 text-[22px]">MENU</p>}
+      {!toggle && <p className="ml-3 text-[22px] hidden lg:block">MENU</p>}
     </div>
   )
 }
@@ -33,9 +33,9 @@ const Navbar = ({ isLogo = false, cur = "" }) => {
 
         <div
           className={`${!toggle ? "hidden" : "flex"
-            } p-6 bg-white absolute top-[0] left-0 w-[20%] h-full min-w-[140px] sidebar`}
+            } p-6 bg-white absolute top-[0] left-0 w-[100%] lg:w-[20%] h-full min-w-[140px] sidebar`}
         >
-          <div className="absolute top-[2rem] left-[10rem]">
+          <div className="absolute top-[2rem] left-[3rem] lg:left-[10rem]">
             <ToggleButton toggle={toggle} setToggle={setToggle} />
           </div>
           <ul className="list-none flex justify-end justify-between items-start flex-1 flex-col float-left h-[50%] mt-[6rem]">

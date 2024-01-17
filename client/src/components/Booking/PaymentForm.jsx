@@ -3,7 +3,6 @@ import Payment from './Payment'
 
 
 const PaymentForm = () => {
-    const onChange = () => { }
     return (
         <form className="flex flex-wrap gap-3 w-full md:w-[50%] md:m-auto p-7 transition ease-in-out shadow-lg bg-white rounded-lg">
             <div className="w-full">

@@ -1,6 +1,6 @@
-import { useState } from "react";
 
-import { close, logo, menu } from "../../assets";
+
+import { logo } from "../../assets";
 import CarRentalIcon from '@mui/icons-material/CarRental';
 import PaymentIcon from '@mui/icons-material/Payment';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';

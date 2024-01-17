@@ -1,10 +1,9 @@
-import { List, Grid, Typography, ListItem, ListItemIcon, ListItemText } from '@mui/material'
+import { Typography, ListItem, ListItemIcon, ListItemText } from '@mui/material'
 import React from 'react'
-import styled from 'styled-components';
 import { Check } from '@mui/icons-material'
 
 const Listing = ({ title, listings, icon }) => {
-    const [dense, setDense] = React.useState(false);
+    // const [dense, setDense] = React.useState(false);
 
     return (
         <div className="grid grid-cols-1">

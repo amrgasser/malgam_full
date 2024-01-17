@@ -1,10 +1,10 @@
-import React from 'react'
+// import React from 'react'
 
-import FormControl from '@mui/material/FormControl';
-import MenuItem from '@mui/material/MenuItem';
-import Select from '@mui/material/Select';
-// import useWindowDimensions from '../../hooks/useWindowDimensions';
-const locations = ['Liverpool', 'Manchester', 'Yorkshire']
+// import FormControl from '@mui/material/FormControl';
+// import MenuItem from '@mui/material/MenuItem';
+// import Select from '@mui/material/Select';
+// // import useWindowDimensions from '../../hooks/useWindowDimensions';
+// const locations = ['Liverpool', 'Manchester', 'Yorkshire']
 
 const DropDown = ({ label, handleEdit, setState, handleChange, state, isLast = false, isFirst = false }) => {
 
