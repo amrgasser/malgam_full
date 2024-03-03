@@ -1,9 +1,6 @@
 import React from 'react'
 import styles from '../../style'
 
-import Navbar from '../Navbar'
-import Footer from '../Footer'
-
 import ElectricCars from './ElectricCars'
 import Vans from './Vans'
 import Cars from './Cars'
@@ -16,7 +13,7 @@ const Content = (type) => {
     return (
         <>
             <div className=" mt-[3rem] mb-[4rem]">
-                <h1 className={`font-corbel font-semibold text-[70px] w-full text-center text-[#FCE9D8]`}> MCVR self drive hire {title[type]}</h1>
+                <h1 className={`font-corbel font-semibold text-[70px] w-full text-center text-[black] uppercase`}> MCVR {title[type]}</h1>
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>

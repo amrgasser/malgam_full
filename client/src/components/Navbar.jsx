@@ -1,8 +1,10 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
+import NavItem from "./Nav/NavItem";
+
 const ToggleButton = ({ toggle, setToggle }) => {
   return (
     <div className="flex flex-row cursor-pointer"
@@ -17,16 +19,36 @@ const ToggleButton = ({ toggle, setToggle }) => {
   )
 }
 
-const Navbar = ({ isLogo = false, cur = "" }) => {
-  const location = useLocation();
-  const temp = location.pathname.trim().replace(/[^a-zA-Z0-9]/g, '');
+const testMenu = [{
+  title: "Book Now"
+},
+{
+  title: "About Us",
+  link: "/about"
+},
+{
+  title: "Our Services",
+  sublist: [{
+    title: "Short term rental",
+    link: "/"
+  }]
+},
+{
+  title: "Our Vehicles",
+  sublist: [{
+    title: "MCVR Cars",
+    link: "/cars"
+  }]
+}
+]
 
-  const [active, setActive] = useState(temp);
+const Navbar = ({ isLogo = false, cur = "" }) => {
+  const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className={`w-full flex flex-row flex-start  ${isLogo ? "py-2" : "py-6"} items-center navbar`}>
-      <div className="justify-end items-center w-[50%]">
+      <div className="flex flex-row justify-between items-center w-[100%]">
         {!toggle &&
           <ToggleButton toggle={toggle} setToggle={setToggle} />
         }
@@ -53,6 +75,11 @@ const Navbar = ({ isLogo = false, cur = "" }) => {
             ))}
           </ul>
         </div>
+        {
+          testMenu.map(m => (
+            <NavItem item={m} />
+          ))
+        }
       </div>
       {/* <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

@@ -8,7 +8,7 @@ import Battery from '../../assets/card_images/battery.png'
 const ElectricCarCard = ({ car }) => {
     return (
         <div className="flex flex-col items-center justify-between bg-white rounded-lg car-shadow p-2" >
-            <img className="rounded-t-lg w-[75%]" src={Car} alt="product image" />
+            <img className="rounded-t-lg w-[75%]" src={Car} alt="product" />
             <div className="px-5 pb-5 flex flex-col align-center justify-center">
                 <h5 className="text-l text-center font-semibold tracking-tight text-gray-900 dark:text-white p-3">{car.code}:&nbsp;{car.type} <br /> or similar</h5>
                 <div className="grid grid-flow-row grid-cols-2 gap-4 p-4">

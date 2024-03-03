@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from '../../style'
 import { privacy } from '../../constants/terms'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
 import GenericPage from '../Common/GenericPage'
 
 const Content = () => {

@@ -1,9 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { questions } from "./questions";
 import SingleQuestion from "./SingleQuestion";
-import styles from "../../style";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 import GenericPage from "../Common/GenericPage";
 
 const Content = () => {

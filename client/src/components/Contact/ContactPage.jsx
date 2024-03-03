@@ -15,7 +15,7 @@ const ContactContent = () => {
                 </div>
                 <div className='flex flex-row py-2'>
                     <p className='text-[30px] mr-[2rem]'>Phone:</p>
-                    <p className='text-[30px] mr-[2rem]'> 07817 252 546 </p>
+                    <div className='text-[30px] mr-[2rem]'> 07817 252 546 </div>
                 </div>
                 <div className="flex flex-col">
                     <p className='text-[30px] mb-2 mr-[2rem]'>Location:</p>
