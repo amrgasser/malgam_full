@@ -12,7 +12,7 @@ const Content = (car) => {
         <div className="grid grid-flow-row grid-cols-2 gap-4 p-4">
             <div className="flex flex-row items-center">
                 <img className='h-4 w-4 mr-2' src={CarEngine} alt="" />
-                <p>{car.power} HP</p>
+                <p>{car.Power} HP</p>
             </div>
             <div className="flex flex-row items-center">
                 <img className='h-4 w-4 mr-2' src={CarSeat} alt="" />
@@ -24,7 +24,7 @@ const Content = (car) => {
             </div>
             <div className="flex flex-row items-center">
                 <img className='h-4 w-4 mr-2' src={Gas} alt="" />
-                <p>30 MPG</p>
+                <p>{car.fuel_economy} MPG</p>
             </div>
         </div>
     </>)

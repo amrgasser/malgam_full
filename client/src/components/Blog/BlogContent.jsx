@@ -8,7 +8,7 @@ const BlogContent = () => {
         link: ""
     }
     return (
-        <div className="">
+        <div className="px-4 md:px-10">
             <div className=" mt-[3rem] mb-[4rem]">
                 <h1 className={`font-corbel font-semibold text-[70px] w-full text-right text-[block] uppercase pr-6`}> Blogs</h1>
             </div>

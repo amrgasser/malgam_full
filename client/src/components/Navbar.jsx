@@ -14,7 +14,7 @@ const ToggleButton = ({ toggle, setToggle }) => {
         alt="menu"
         className="mt-auto w-[28px] h-[28px] object-contain invert-[75]"
       />
-      {!toggle && <p className="ml-3 text-[22px] hidden lg:block">MENU</p>}
+      <p className="ml-3 text-[22px] hidden lg:block">MENU</p>
     </div>
   )
 }
@@ -49,10 +49,7 @@ const Navbar = ({ isLogo = false, cur = "" }) => {
   return (
     <nav className={`w-full flex flex-row flex-start  ${isLogo ? "py-2" : "py-6"} items-center navbar`}>
       <div className="flex flex-row justify-between items-center w-[100%]">
-        {!toggle &&
-          <ToggleButton toggle={toggle} setToggle={setToggle} />
-        }
-
+        <ToggleButton toggle={toggle} setToggle={setToggle} />
         <div
           className={`${!toggle ? "hidden" : "flex"
             } p-6 bg-white absolute top-[0] left-0 w-[100%] lg:w-[20%] h-full min-w-[140px] sidebar z-[100]  `}
@@ -77,7 +74,7 @@ const Navbar = ({ isLogo = false, cur = "" }) => {
         </div>
         {
           testMenu.map(m => (
-            <NavItem item={m} />
+            <NavItem item={m} setActive={setActive} />
           ))
         }
       </div>

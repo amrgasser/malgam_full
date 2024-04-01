@@ -34,6 +34,10 @@ export const navLinks = [
     title: "Privacy",
   },
   {
+    id: "blogs",
+    title: "Blogs",
+  },
+  {
     id: "terms-and-conditions",
     title: "Terms & Conditions"
   },
