@@ -33,6 +33,10 @@
   content: " ";
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 65%, rgba(180, 174, 168, 1) 65%, rgba(180, 174, 168, 1) 85%, rgba(255, 255, 255, 1) 85%);
 }
+.about-bg-mobile{
+  content: " ";
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 55%, rgba(180, 174, 168, 1) 55%, rgba(180, 174, 168, 1) 90%, rgba(255, 255, 255, 1) 90%);
+}
 
 .bg-offwhite{
   background-color: #FCE9D8;

@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import GenericPage from "../Common/GenericPage"
 import axios from "../../lib/axios"
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
+
 const ContactContent = () => {
   const [form, setForm] = useState({})
 
@@ -21,13 +24,13 @@ const ContactContent = () => {
       <div className="flex flex-col md:flex-row p-4 md:p-20 gap-10 w-full m-auto">
         <div className="">
           <div className="flex flex-row py-2">
-            <p className="text-[20px] mr-[2rem]">Email:</p>
+            <EmailIcon className="mr-3" />
             <a className="text-[20px] mr-[2rem]" href="mailto:info@malgam.co.uk">
               info@malgam.co.uk
             </a>
           </div>
           <div className="flex flex-row py-2">
-            <p className="text-[20px] mr-[2rem]">Phone:</p>
+            <PhoneIcon className="mr-3" />
             <div className="text-[20px] mr-[2rem]"> 07817 252 546 </div>
           </div>
           <div className="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
@@ -58,8 +61,8 @@ const ContactContent = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <p className="text-[30px] mb-2 mr-[2rem]">Location:</p>
-          <iframe className="w-[full] h-[full]" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13823.66046811428!2d31.5484174!3d29.981869349999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1711817086829!5m2!1sen!2seg"></iframe>
+          {/* <p className="text-[30px] mb-2 mr-[2rem]">Location:</p> */}
+          <iframe className="h-[225px] w-[300px] lg:h-[500px] lg:w-[750px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27647.32095014802!2d31.5484174!3d29.981869299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14582177a0e2a2a3%3A0x11f183c3889f3212!2sHyde%20Park%2C%20New%20Cairo%201%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1712157923643!5m2!1sen!2seg"></iframe>
         </div>
       </div>
     </div>

@@ -25,14 +25,14 @@ const AboutContent = () => {
 
     useEffect(() => {
         axios.get('/api/about').then((res) => {
-            setData(res.data)
+            setData(res.data.data)
         })
     }, [])
     return (
 
-        <div className='block about-bg py-20 px-6'>
+        <div className='block about-bg-mobile lg:about-bg py-20 px-6'>
             {/* TABS */}
-            <div className="w-full md:py-6rem">
+            <div className="hidden lg:block w-full md:py-6rem">
                 <div className='flex flex-col lg:flex-row m-auto justify-between px-20'>
                     {tabs.map((s, ind) => {
                         return (
@@ -46,7 +46,7 @@ const AboutContent = () => {
                     })}
                 </div>
             </div>
-            <div className=" mt-[7rem] mb-[4rem]">
+            <div className=" lg:mt-[7rem] mb-[4rem]">
                 <h1 className={`font-corbel font-semibold text-[70px] w-full text-center text-[black]`}> About Us</h1>
             </div>
             {/* Material UI */}
@@ -59,7 +59,7 @@ const AboutContent = () => {
                 >
                     {aboutText.map((s, ind) => (
                         (
-                            <div className={`min-h-[300px] bg-offwhite ${ind % 2 === 0 ? "rounded-tl-[100px] rounded-br-[100px]" : "rounded-tr-[100px] rounded-bl-[100px]"} p-10  mx-4`}>
+                            <div className={`min-h-[500px] lg:min-h-[300px] bg-offwhite ${ind % 2 === 0 ? "rounded-tl-[100px] rounded-br-[100px]" : "rounded-tr-[100px] rounded-bl-[100px]"} p-10  mx-4`}>
                                 <div className="my-auto translate-y-[50px]">
                                     <p className={`font-normal text-center text-[20px]`} key={ind}>
                                         {s}
