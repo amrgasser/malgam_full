@@ -6,10 +6,7 @@ import Hero from "./Hero";
 
 export {
   Navbar,
-
   Clients,
-
-
   Footer,
   Testimonials,
   Hero,

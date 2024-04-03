@@ -28,17 +28,41 @@ const testMenu = [{
 },
 {
   title: "Our Services",
-  sublist: [{
-    title: "Short term rental",
-    link: "/"
-  }]
+  sublist: [
+    {
+      title: "Short term rental",
+      link: "/"
+    },
+    {
+      title: "Long term rental",
+      link: "/"
+    },
+    {
+      title: "Vehicle Sales",
+      link: "/"
+    },
+    {
+      title: "Corporate Services",
+      link: "/"
+    },
+  ]
 },
 {
   title: "Our Vehicles",
-  sublist: [{
-    title: "MCVR Cars",
-    link: "/cars"
-  }]
+  sublist: [
+    {
+      title: "MCVR Cars",
+      link: "/cars"
+    },
+    {
+      title: "MCVR Vans",
+      link: "/vans"
+    },
+    {
+      title: "Vehicle Sales",
+      link: "/vans"
+    },
+  ]
 }
 ]
 
@@ -77,6 +101,14 @@ const Navbar = ({ isLogo = false, cur = "" }) => {
             <NavItem item={m} setActive={setActive} />
           ))
         }
+        <Link to={'/'}>
+          <img
+            src={logo}
+            alt="menu"
+
+            className="hidden lg:block mt-auto w-[6rem] h-[5rem]"
+          />
+        </Link>
       </div>
       {/* <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

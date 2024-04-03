@@ -5,7 +5,7 @@ import { myRoutes } from './constants/routes'
 
 const App = () => (
   <div className="bg-gradient-custom w-full overflow-hidden">
-    <div className="hero-background-image object-fill">
+    <div className="">
       <div className={`${styles.paddingX} ${styles.flexCenter} bg-orange`}>
         <div className={`w-full md:px-10`}>
           <Navbar />

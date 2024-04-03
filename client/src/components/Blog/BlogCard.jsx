@@ -10,7 +10,9 @@ const BlogCard = ({ blog }) => {
                 <h5 className="text-l italic text-[20px] font-semibold tracking-tight text-gray-900 dark:text-white pb-3">{blog.title}</h5>
                 <div className="blog-item-border mb-3"></div>
                 <p>{blog.description}</p>
-                <Link to={blog.link}> READ MORE</Link>
+                <div className="bg-red-600 px-4 py-2 w-[60%] mt-2">
+                    <Link className='text-white' to={blog.link}> READ MORE</Link>
+                </div>
             </div>
         </div>
     )

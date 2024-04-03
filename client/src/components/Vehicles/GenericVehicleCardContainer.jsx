@@ -1,9 +1,9 @@
 import React from 'react'
 
-const GenericVehicleCard = ({ children, Car }) => {
+const GenericVehicleCard = ({ children, car }) => {
     return (
         <div className="flex flex-col items-center justify-between bg-white rounded-lg car-shadow p-2" >
-            <img className="rounded-t-lg w-[75%]" src={Car} alt="product" />
+            {car.image && <img className="rounded-t-lg w-[75%]" src={car.image} alt="product" />}
             <div className=" lg:px-5 pb-5 flex flex-col align-center justify-center">
                 {children}
             </div>

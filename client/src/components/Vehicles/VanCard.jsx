@@ -1,7 +1,5 @@
 import React from 'react'
 import Car from '../../assets/card_images/new_car.png'
-
-import CarSeat from '../../assets/card_images/car-seat.png'
 import Payload from '../../assets/card_images/payload.jpeg'
 import Cargo from '../../assets/card_images/cargo.png'
 import Gas from '../../assets/card_images/gas-station.png'
@@ -15,29 +13,25 @@ const Content = (car) => {
             <div className="flex flex-row items-center justiy-between">
                 <div className="flex flex-row items-center">
                     {/* <img className='h-4 w-4 mr-2' src={Cargo} alt="" /> */}
-                    <p className={`${styles.paragraph}`}>H: {car.dimensions.h}</p>
+                    <p className={`${styles.paragraph}`}>H: {car.dimensions.height}</p>
                 </div>
                 <div className="flex flex-row items-center">
                     {/* <img className='h-4 w-4 mr-2' src={Cargo} alt="" /> */}
-                    &nbsp;&nbsp;<p className={`${styles.paragraph}`}>W: {car.dimensions.w}</p>
+                    &nbsp;&nbsp;<p className={`${styles.paragraph}`}>W: {car.dimensions.width}</p>
                 </div>
                 <div className="flex flex-row items-center">
                     {/* <img className='h-4 w-4 mr-2' src={Cargo} alt="" /> */}
-                    &nbsp;&nbsp;<p className={`${styles.paragraph}`}>L: {car.dimensions.l}</p>
+                    &nbsp;&nbsp;<p className={`${styles.paragraph}`}>L: {car.dimensions.length}</p>
                 </div>
             </div>
             <div className="grid grid-flow-row grid-cols-2 gap-4 p-4">
                 <div className="flex flex-row items-center">
                     <img className='h-4 w-4 mr-2' src={Cargo} alt="" />
-                    <p>{car.cargoSpace}</p>
+                    <p>{car.load}</p>
                 </div>
                 <div className="flex flex-row items-center">
                     <img className='h-4 w-4 mr-2' src={Payload} alt="" />
-                    <p>{car.payload}</p>
-                </div>
-                <div className="flex flex-row items-center">
-                    <img className='h-4 w-4 mr-2' src={CarSeat} alt="" />
-                    <p>{car.seats} seats</p>
+                    <p>{car.capacity}</p>
                 </div>
                 <div className="flex flex-row items-center">
                     <img className='h-4 w-4 mr-2' src={Gas} alt="" />

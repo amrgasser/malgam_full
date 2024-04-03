@@ -39,7 +39,6 @@ const CarCard = ({ next, onClick }) => {
                     </div>
                 </div>
                 <div className="flex items-center justify-between mt-5 pointer-cursor" onClick={onClick}>
-                    {/* <span class="text-xl font-bold text-gray-900 dark:text-white">$ 50.0</span> */}
                     <p className="text-white w-full bg-primary hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">$ 50.0</p>
                 </div>
             </div>
